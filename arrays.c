@@ -26,7 +26,7 @@ int main ()
         //adding the elements created by the user
         sum += element[e];
     }
-    printf("Sum of all array elements: %d\n\n\n", sum);
+    printf("Sum of all array elements: %d\n", sum);
 
     return 0;
     }
