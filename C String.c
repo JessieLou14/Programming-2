@@ -31,7 +31,7 @@ int main()
     //print the output
     printf("String Converted:");
     puts(string1);
-    printf("\nString Length: %d\n", v);
+    printf("\nString Length: %d\n", v+1);
     printf("Vowels: %d\n", count);
     printf("Consonants: %d", count2);
 }
