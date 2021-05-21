@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void printReverse(char str[])
+void Reverse(char str[])
 {
     int length = strlen(str);
 
@@ -26,7 +26,7 @@ int main()
     printf("Enter any string: ");
     gets(str);
     printf("Reverse ordered words\n");
-    printReverse(str);
+    Reverse(str);
     puts(str);
     return 0;
 }
