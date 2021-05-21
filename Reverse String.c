@@ -13,7 +13,7 @@ void printReverse(char str[])
         {
             //putting the NULL to separate words by words
             str[i] = '\0';
-            // Start from next charatcer
+            // begin characters to next
             printf("%s ", &(str[i]) + 1);
         }
     }
